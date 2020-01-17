@@ -2,7 +2,7 @@
   display: none;
 }
 
-.form-control#aries {
+.aries {
   display: none;
   background: rgb(209,92,18);
   background: linear-gradient(0deg, rgba(209,92,18,1) 0%, rgba(238,161,41,1) 100%); 
