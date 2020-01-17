@@ -1,40 +1,9 @@
-#drinks, #under-21 {
+.quiz {
   display: none;
 }
 
-#aries {
-  background-color: ;
-}
-#taurus {
-  background-color: ;
-}
-#gemini {
-  background-color: ;
-}
-#cancer {
-  background-color: ;
-}
-#leo {
-  background-color: ;
-}
-#virgo {
-  background-color: ;
-}
-#libra {
-  background-color: ;
-}
-#scorpio {
-  background-color: ;
-}
-#sagittarius {
-  background-color: ;
-}
-#capricorn {
-  background-color: ;
-}
-#aquarius {
-  background-color: ;
-}
-#pisces {
-  background-color: ;
+.form-control#aries {
+  display: none;
+  background: rgb(209,92,18);
+  background: linear-gradient(0deg, rgba(209,92,18,1) 0%, rgba(238,161,41,1) 100%); 
 }
