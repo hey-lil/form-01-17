@@ -1,7 +1,13 @@
 $(document).ready(function() {
-  $(".form-control.aries").click(function() {
+
+  var backgrounds = function() {
     $().removeClass();
     $(".aries").show();
     $(".quiz").show();
-  });
+  };
+
+  $(".aries").click(backgrounds)
+      $(".aries").show();
+      $(".quiz").show();
 });
+
