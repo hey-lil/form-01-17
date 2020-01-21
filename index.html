@@ -16,7 +16,7 @@
       <p>you don't have to pick your sun sign if you don't want, you can pick the sign you relate to most, your dominant sign, whatever floats ur boat</p>
       <select class="form-control" id="astro">
         <option id="pick">Pick a sign</option>
-        <option class="aries">Aries</option>
+        <option id="aries">Aries</option>
         <option id="taurus">Taurus</option>
         <option id="gemini">Gemini</option>
         <option id="cancer">Cancer</option>
@@ -31,13 +31,27 @@
         <option id="pisces">Pisces</option>
       </select>
     </div>
-    <div class="quiz">
       <div class="container">
         <form id="questions">
-          <h2>Sample question 2</h2>
+          <h2>What method do you use to organize your life?</h2>
           <div class="radio">
             <label>
-              <input type="radio" name="question name" value="answervalue" checked>answer name
+              <input type="radio" name="organize" value="phoneCalendar">Phone Calendar
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="organize" value="paperPlanner">Paper Planner
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="organize" value="mirrorNotes">Sticky Notes on a mirror
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="organize" value="bujo" clicked>Bullet Journaling
             </label>
           </div>
         </form>

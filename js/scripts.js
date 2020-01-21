@@ -1,13 +1,11 @@
 $(document).ready(function() {
 
-  var backgrounds = function() {
-    $().removeClass();
-    $(".aries").show();
-    $(".quiz").show();
-  };
+  var backgrounds = (function() {
+    $("body").removeClass();
+    $("body").addClass(".aries-background");
+    $(form).show();
+  });
 
-  $(".aries").click(backgrounds)
-      $(".aries").show();
-      $(".quiz").show();
+  $("option#aries").click(backgrounds);
+
 });
-

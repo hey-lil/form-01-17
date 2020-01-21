@@ -1,12 +1,10 @@
 body {
   background-color: #ef00ef;
 }
-
-
-.quiz {
+form {
   display: none;
 }
-
-.aries {
-  background-color: #ef0000
+.aries-background {
+  background-color: #ef0000;
 }
+
