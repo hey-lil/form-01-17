@@ -4,7 +4,8 @@ body {
 form {
   display: none;
 }
-.aries-background {
+.ariesBackground {
+  display: none;
   background-color: #ef0000;
 }
 
