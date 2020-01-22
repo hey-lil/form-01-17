@@ -1,9 +1,13 @@
 $(document).ready(function() {
-  //$(".astroBranch#aries").click (function() { 
-    // $().removeClass();                                   
-    // $().addClass();     
-   // alert("jesus christ why");
-  //)};
+
+  $("form#questions").submit(function() {
+    event.preventDefault();
+
+  $(".astroBranch#aries").click (function() { 
+    $().removeClass();                                   
+    $().addClass();     
+   alert("jesus christ why");
+  )};
   
   // $().removeClass();
       // $().addClass(".ariesBackground");
